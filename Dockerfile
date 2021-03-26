@@ -6,6 +6,6 @@ RUN pip install keras numpy pillow flask
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 80
 ENTRYPOINT ["python"]
 CMD ["server.py"]
